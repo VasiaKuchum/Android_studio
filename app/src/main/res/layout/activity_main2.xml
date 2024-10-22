@@ -113,6 +113,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text="Option 1" />
+
     <LinearLayout
         android:id="@+id/linearLayout2"
         android:layout_width="270dp"
@@ -190,5 +196,17 @@
             android:textStyle="bold" />
 
     </LinearLayout>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Option 1" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Option 2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
