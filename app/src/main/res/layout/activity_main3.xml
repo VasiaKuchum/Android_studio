@@ -32,8 +32,9 @@
         android:drawableLeft="@drawable/apple_black_logo_1"
         android:text="CONTINUE WITH APPLE"
         android:textColor="#000000"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        tools:layout_editor_absoluteX="65dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
     <TextView
         android:id="@+id/textView4"
@@ -53,13 +54,13 @@
         android:id="@+id/textView5"
         android:layout_width="167dp"
         android:layout_height="61dp"
-        android:layout_marginStart="120dp"
         android:layout_marginTop="112dp"
         android:text="Sign Up"
         android:textAlignment="textStart"
         android:textColor="#0B0000"
         android:textSize="45sp"
         android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -79,9 +80,10 @@
         android:id="@+id/linearLayout"
         android:layout_width="339dp"
         android:layout_height="28dp"
-        android:layout_marginStart="36dp"
         android:layout_marginTop="24dp"
         android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView8">
 
@@ -145,11 +147,13 @@
     <Button
         android:id="@+id/button5"
         style="@style/Button1"
+        android:onClick="cont"
         android:text="CONTINUE"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextText5"
-        app:layout_constraintVertical_bias="0.248"
-        tools:layout_editor_absoluteX="65dp" />
+        app:layout_constraintVertical_bias="0.248" />
 
     <LinearLayout
         android:layout_width="202dp"
@@ -157,7 +161,7 @@
         android:layout_marginTop="16dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.311"
+        app:layout_constraintHorizontal_bias="0.337"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button5">
 

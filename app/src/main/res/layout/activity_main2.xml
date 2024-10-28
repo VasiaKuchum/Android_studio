@@ -35,15 +35,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button"
         android:layout_width="280dp"
         android:layout_height="58dp"
-        android:layout_marginStart="64dp"
         android:layout_marginTop="112dp"
+        android:drawableLeft="@drawable/apple_black_logo_1"
+        android:paddingLeft="30dp"
         android:background="@drawable/shape"
         android:text="CONTINUE WITH APPLE"
         android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
@@ -71,7 +73,6 @@
         android:inputType="text"
         android:paddingLeft="10dp"
         android:textColor="#CECECE"
-        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
@@ -104,20 +105,16 @@
         app:srcCompat="@drawable/apple_black_logo_1" />
 
     <Button
-        style="@style/Button1"
         android:id="@+id/button2"
+        style="@style/Button1"
         android:layout_marginTop="20dp"
+        android:onClick="log_in"
         android:text="Log In"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="0dp"
-        android:layout_weight="1"
-        android:text="Option 1" />
 
     <LinearLayout
         android:id="@+id/linearLayout2"
@@ -169,9 +166,10 @@
     <LinearLayout
         android:layout_width="189dp"
         android:layout_height="23dp"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="16dp"
         android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.316"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
 
@@ -197,16 +195,5 @@
 
     </LinearLayout>
 
-        <Button
-            android:id="@+id/button1"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:text="Option 1" />
-
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:text="Option 2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

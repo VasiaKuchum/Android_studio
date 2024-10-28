@@ -24,8 +24,8 @@
 
     <LinearLayout
         android:id="@+id/linearLayout3"
-        android:layout_width="421dp"
-        android:layout_height="74dp"
+        android:layout_width="448dp"
+        android:layout_height="78dp"
         android:orientation="horizontal"
         android:padding="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -43,6 +43,7 @@
             android:id="@+id/imageView9"
             android:layout_width="30dp"
             android:layout_height="30dp"
+            android:onClick="went"
             app:srcCompat="@drawable/_643769_building_home_house_main_menu_start_113416_1" />
 
         <TextView
@@ -102,23 +103,26 @@
 
     <ImageView
         android:id="@+id/imageView10"
-        android:layout_width="559dp"
-        android:layout_height="251dp"
-        android:layout_marginTop="68dp"
+        android:layout_width="565dp"
+        android:layout_height="265dp"
+        android:layout_marginTop="64dp"
+        android:onClick="prod"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/_69fc1e6de29480f7be34d3aa5ce34da_1__3_"
-        tools:layout_editor_absoluteX="-85dp" />
+        app:srcCompat="@drawable/_69fc1e6de29480f7be34d3aa5ce34da_1__3_" />
 
     <TextView
         android:id="@+id/textView27"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:text="Margarita"
         android:textColor="#000000"
         android:textSize="24sp"
         android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.116"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView10" />
 
@@ -131,7 +135,7 @@
         android:text="Pizza &quot;Margarita&quot; is probably the most popular pizza in the world, in this video I decided to share a classic recipe for this pizza. Previously, I laid out a recipe for making dough and sauce for pizza for those who want to cook pizza with their own filling. All ingredients are listed for two 30 cm diameter pizzas."
         android:textAlignment="textStart"
         android:textColor="#000000"
-        android:textSize="14sp"
+        android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -140,12 +144,13 @@
         app:layout_constraintVertical_bias="0.192" />
 
     <LinearLayout
-        android:layout_width="351dp"
-        android:layout_height="187dp"
-        android:layout_marginStart="16dp"
+        android:layout_width="404dp"
+        android:layout_height="150dp"
         android:orientation="vertical"
 
         app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.355"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView33"
         app:layout_constraintVertical_bias="1.0">
@@ -156,7 +161,7 @@
             android:layout_height="wrap_content"
             android:text="Ingredients:"
             android:textColor="#000000"
-            android:textSize="20sp"
+            android:textSize="24sp"
             android:textStyle="bold" />
 
         <TextView
@@ -164,35 +169,40 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Wheat flour / Flour - 250 g"
-            android:textColor="#000000" />
+            android:textColor="#000000"
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/textView42"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Yeast (fresh) - 3 g"
-            android:textColor="#040000" />
+            android:textColor="#040000"
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/textView43"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Water (cold) - 130 ml"
-            android:textColor="#050000" />
+            android:textColor="#050000"
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/textView44"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Olive oil (30 ml. In dough and 25 ml. In sauce) - 55 ml"
-            android:textColor="#040000" />
+            android:textColor="#040000"
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/textView45"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Salt (1 tsp in the dough and 1 tsp in the sauce) - 2 tsp"
-            android:textColor="#020000" />
+            android:textColor="#020000"
+            android:textSize="16sp" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
