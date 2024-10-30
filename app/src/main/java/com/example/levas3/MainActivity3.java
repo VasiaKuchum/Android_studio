@@ -29,4 +29,8 @@ public class MainActivity3 extends AppCompatActivity {
         Intent intent = new Intent(this, MainActivity4.class);
         startActivity(intent);
     }
+    public void log_in(View view){
+        Intent intent = new Intent(this, MainActivity2.class);
+        startActivity(intent);
+    }
 }
