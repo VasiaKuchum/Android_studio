@@ -38,7 +38,6 @@
 
 
 
-
     <LinearLayout
         android:id="@+id/linearLayout3"
         android:layout_width="match_parent"
@@ -78,6 +77,16 @@
             app:srcCompat="@drawable/recipe_svgrepo_com_1__2_" />
 
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/_69fc1e6de29480f7be34d3aa5ce34da_1"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="462dp" />
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
