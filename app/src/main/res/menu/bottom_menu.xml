@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Item"
+        android:id="@+id/home_menu"
+        android:icon="@drawable/_643769_building_home_house_main_menu_start_113416_1__2_"/>
+    <item android:title="Item"
+        android:id="@+id/recept_menu"
+        android:icon="@drawable/recipe_svgrepo_com_1"/>
+    <item android:title="Item"
+        android:id="@+id/profile_menu"
+        android:icon="@drawable/_092564_about_mobile_ui_profile_ui_user_website_114033_1__1_"/>
+    <item android:title="Item"
+        android:id="@+id/settings_menu"
+        android:icon="@drawable/like_svgrepo_com_1"/>
+</menu>
